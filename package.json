@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "MyLibrary adalah aplikasi berbasis web untuk mempermudah transaksi peminjaman buku di perpustakaan dan bentuk digitalisasi data untuk perpustakaan",
   "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "dev": "nodemon app.js",
     "db-install": "sequelize-cli db:create && sequelize-cli db:migrate",
